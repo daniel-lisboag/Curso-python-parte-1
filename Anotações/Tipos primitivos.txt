@@ -1,0 +1,15 @@
+Em Python, os tipos primitivos são os tipos de dados básicos utilizados para armazenar valores simples. Os mais comuns são:
+
+1. int (Inteiro): Representa números inteiros, positivos ou negativos, sem parte decimal.
+   Exemplo: 5, -10, 123
+
+2. float (Ponto flutuante): Representa números reais, ou seja, números com parte decimal.
+   Exemplo: 3.14, -2.5, 0.0
+
+3. str (String): Representa sequências de caracteres, ou seja, texto.
+   Exemplo: 'Olá', 'Python', '123'
+
+4. bool (Booleano): Representa valores lógicos, ou seja, 'True' (verdadeiro) ou 'False' (falso).
+   Exemplo: True, False
+
+Esses tipos primitivos são a base para trabalhar com dados simples em Python e são fundamentais no desenvolvimento de programas na linguagem.

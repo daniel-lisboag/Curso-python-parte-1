@@ -1,0 +1,44 @@
+Operações aritméticas
+
+Em Python, as operações aritméticas básicas são:
+
+1. Soma (+): Adiciona dois valores.
+   Exemplo: 5 + 2 == 7
+
+2. Subtração (-): Subtrai um valor de outro.
+   Exemplo: 5 - 2 == 3
+
+3. Multiplicação (*): Multiplica dois valores.
+   Exemplo: 5 * 2 == 10
+
+4. Divisão (/): Divide um valor por outro, retornando um número decimal (float).
+   Exemplo: 5 / 2 == 2.5
+
+5. Exponenciação ()**: Eleva um número à potência de outro.
+   Exemplo: 5 ** 2 == 25
+
+6. Divisão inteira (//): Realiza uma divisão e retorna apenas a parte inteira do resultado.
+   Exemplo: 5 // 2 == 2
+
+7. Módulo (%): Retorna o restante da divisão entre dois números.
+   Exemplo: 5 % 2 == 1
+
+Essas operações permitem realizar cálculos matemáticos fundamentais de maneira simples e direta em Python.
+
+----------------------------------------------------------------------------------------------------------
+Ordem de precedência
+
+A ordem de precedência em Python define a sequência na qual as operações aritméticas e outras operações
+são realizadas em uma expressão. Isso é importante porque, sem a ordem correta, os resultados das
+operações podem ser diferentes do esperado.
+
+Aqui está a ordem de precedência das operações em Python, da mais alta para a mais baixa:
+
+1. Parênteses (): Operações dentro de parênteses são realizadas primeiro.
+2. Exponentiação **: A operação de exponenciação tem a próxima maior precedência.
+3. Multiplicação *, Divisão /, Divisão inteira //, Módulo %: Estas operações são realizadas da esquerda para a direita (associatividade da esquerda para a direita).
+4. Soma + e Subtração -: Também são realizadas da esquerda para a direita (como multiplicação e divisão).
+5. Operadores de comparação e lógicos, como ==, !=, <, >, <=, >=, and, or, not, entre outros, têm menor precedência que as operações aritméticas.
+6. Atribuição: O operador de atribuição = tem uma das menores precedências. Ou seja, ele é executado por último, após todas as outras operações.
+
+Sempre que necessário, você pode usar parênteses () para garantir que operações sejam feitas na ordem que você deseja.
