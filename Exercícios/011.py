@@ -4,5 +4,5 @@
 
 largura = float(input('Digite a largura: '))
 altura = float(input('Digite a altura: '))
-print('Área a ser pintada: {}Mts²'.format(largura * altura))
-print('Quantidade de tinta necessária: {}Lts'.format((largura * altura) / 2))
+print('Área a ser pintada: {:.2f}Mts²'.format(largura * altura))
+print('Quantidade de tinta necessária: {:.2f}Lts'.format((largura * altura) / 2))
