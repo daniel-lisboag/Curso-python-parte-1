@@ -15,21 +15,25 @@ print(nome, idade, peso)
 
 # 1° Crie um script Python que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas de
 # acordo com o valor digitado.
+
 nome = input('Qual é o seu nome? ')
 print('Olá', nome, '! Prazer em te conhcer')
 
 # 2° Crie um script Python que leia o dia, o mês e o ano de nascimento de uma pessoa e mostre uma
 # mensagem com a data formatada.
+
 dia = input('Dia: ')
 mes = input('Mês: ')
 ano = input('Ano: ')
 print('Você nasceu no dia', dia, 'de', mes, 'de', ano, '. Correto?')
 
 # 3° Crie um script Python que leia dois números e tente mostrar a soma entre eles.
+
 valor1 = int(input('Digite o primeiro valor: '))
 valor2 = int(input('Digite o segundo valor: '))
 print('A soma entre', valor1, 'e', valor2, 'é: ', valor1 + valor2)
 print('A soma é', valor1 + valor2)
+
 # Ou
 print('A soma vale {}'.format(valor1 + valor2))
 print('A soma entre {} e {} vale {}'.format(valor1, valor2, (valor1 + valor2)))

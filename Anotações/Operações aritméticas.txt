@@ -1,7 +1,6 @@
 Operações aritméticas
 
 Em Python, as operações aritméticas básicas são:
-
 1. Soma (+): Adiciona dois valores.
    Exemplo: 5 + 2 == 7
 
@@ -29,6 +28,7 @@ Em Python, as operações aritméticas básicas são:
 Essas operações permitem realizar cálculos matemáticos fundamentais de maneira simples e direta em Python.
 
 ----------------------------------------------------------------------------------------------------------
+
 Ordem de precedência
 
 A ordem de precedência em Python define a sequência na qual as operações aritméticas e outras operações
@@ -36,7 +36,6 @@ são realizadas em uma expressão. Isso é importante porque, sem a ordem corret
 operações podem ser diferentes do esperado.
 
 Aqui está a ordem de precedência das operações em Python, da mais alta para a mais baixa:
-
 1. Parênteses (): Operações dentro de parênteses são realizadas primeiro.
 2. Exponentiação **: A operação de exponenciação tem a próxima maior precedência.
 3. Multiplicação *, Divisão /, Divisão inteira //, Módulo %: Estas operações são realizadas da esquerda para a direita (associatividade da esquerda para a direita).
