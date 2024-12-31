@@ -4,4 +4,4 @@ nome = input('Qual é o seu nome? ')
 print('É um prazer te conhecer,', nome)
 
 # Ou
-# print('É um prazer te conhecer, {}.'.format(nome))
+print('É um prazer te conhecer, {}.'.format(nome))
