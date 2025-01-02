@@ -4,10 +4,10 @@ import math
 
 # Da biblioteca matemática importe raiz quadrada (sqrt) e arredondamento para cima (floor)
 from math import sqrt, floor
+valor = int(input('Digite um número: '))
 print('A raiz quadrada de {} é igual a {}'.format(valor, floor(sqrt(valor))))
 
 # Raiz quadrada (math.sqrt)
-valor = int(input('Digite um número: '))
 print('A raiz quadrada de {} é igual a {}'.format(valor, math.sqrt(valor)))
 
 # Duas casas decimais
