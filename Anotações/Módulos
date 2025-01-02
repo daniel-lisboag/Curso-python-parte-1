@@ -1,0 +1,8 @@
+Módulos
+
+Em Python, um módulo é um arquivo que contém código Python, como funções, classes e variáveis.
+Ele permite a organização e reutilização de código. Para usar um módulo, você pode importá-lo
+usando a palavra-chave import. Existem várias formas de importar, como importar o módulo
+completo, importar funções específicas ou renomeá-lo. Além dos módulos padrão, como math e os,
+é possível utilizar bibliotecas externas, instaladas via pip. Em projetos maiores, é comum
+organizar módulos em pacotes, que são pastas com arquivos Python e um arquivo __init__.py.
