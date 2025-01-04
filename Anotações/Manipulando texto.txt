@@ -1,0 +1,216 @@
+Fatiamento
+
+Fatiamento (ou slicing) é uma técnica em Python que permite extrair uma parte específica de uma sequência, como uma string, lista ou tupla, com base em índices.
+
+O fatiamento é realizado utilizando a notação sequência[início:fim:passo], onde:
+início: O índice de onde o fatiamento começa (inclusivo). Se não for especificado, começa do início da sequência.
+fim: O índice onde o fatiamento termina (exclusivo). Se não for especificado, vai até o final da sequência.
+passo: Define o intervalo entre os elementos que serão incluídos no fatiamento. Se não for especificado, o passo é 1.
+
+Exemplos:
+texto[1:5] extrai os caracteres do índice 1 ao 4 (o índice 5 é excluído).
+texto[:4] extrai do início até o índice 3.
+texto[2:] extrai do índice 2 até o final.
+texto[::2] extrai todos os caracteres, mas com um passo de 2 (pega o primeiro, o terceiro, o quinto e assim por diante).
+
+Fatiamento é uma ferramenta poderosa para manipulação de sequências, permitindo acessar rapidamente partes específicas de dados.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Len
+
+função len() em Python é usada para retornar o tamanho de uma sequência, como uma string, lista, tupla ou dicionário.
+Ela conta o número de elementos ou caracteres presentes na sequência e pode ser aplicada a diversos tipos de objetos que suportam iteração.
+A função fornece um valor inteiro representando a quantidade de itens ou caracteres na sequência fornecida.
+
+Exemplos:
+String:
+texto = "Olá, mundo!"
+print(len(texto))  # Saída: 12 (porque a string "Olá, mundo!" tem 12 caracteres).
+
+Lista:
+lista = [1, 2, 3, 4, 5]
+print(len(lista))  # Saída: 5 (a lista tem 5 elementos).
+
+Tupla:
+tupla = (10, 20, 30)
+print(len(tupla))  # Saída: 3 (a tupla tem 3 elementos).
+
+Dicionário:
+dicionario = {'a': 1, 'b': 2, 'c': 3}
+print(len(dicionario))  # Saída: 3 (o dicionário tem 3 chaves).
+
+O len() é muito útil para determinar o número de itens em coleções ou o comprimento de uma string.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Count
+
+O método count() em Python é utilizado para contar o número de ocorrências de um determinado valor em uma sequência, como uma string, lista ou tupla.
+Ele retorna um número inteiro que representa quantas vezes o valor especificado aparece na sequência.
+O método count() pode ser aplicado a strings, listas, tuplas e outros tipos de sequências em Python.
+
+Exemplos:
+String:
+texto = "Olá, Mundo!"
+resultado = texto.count("o")
+print(resultado)  # Saída: 2 (A letra "o" aparece 2 vezes).
+
+Lista:
+lista = [1, 2, 3, 2, 2, 4]
+resultado = lista.count(2)
+print(resultado)  # Saída: 3 (O número 2 aparece 3 vezes na lista).
+
+Tupla:
+tupla = (5, 6, 5, 7, 5)
+resultado = tupla.count(5)
+print(resultado)  # Saída: 3 (O número 5 aparece 3 vezes na tupla).
+
+Esses exemplos demonstram como o método count() pode ser usado para contar a ocorrência de um valor específico dentro de uma sequência.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Find
+
+Em Python, a função find() é usada para procurar uma substring dentro de uma string. Ela retorna o índice da primeira ocorrência da substring encontrada ou -1
+se a substring não for encontrada.
+
+Exemplo:
+texto = "Olá, bem-vindo ao Python!"
+indice = texto.find("bem")
+
+# Exibindo o índice da primeira ocorrência
+print(indice)  # Saída: 4
+
+# Procurando por uma substring que não existe
+indice_invalido = texto.find("Java")
+print(indice_invalido)  # Saída: -1
+
+Explicação:
+O método find() retorna o índice da primeira ocorrência da substring.
+Se a substring não for encontrada, ele retorna -1.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Replace
+
+O método replace() em Python é usado para substituir partes de uma string por outra. A sintaxe básica do método replace() é:
+string.replace(old, new, count)
+
+Onde:
+old: A substring que você deseja substituir.
+new: A substring que você deseja colocar no lugar de old.
+count (opcional): O número máximo de substituições que você deseja fazer. Se não for fornecido, todas as ocorrências de old serão substituídas.
+
+Dicas:
+O replace() não altera a string original, pois as strings em Python são imutáveis. Ele retorna uma nova string com as modificações.
+Caso o count não seja especificado, todas as ocorrências de old serão substituídas por new.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Upper
+
+O método upper() em Python é usado para converter todos os caracteres de uma string para maiúsculas. Ele não aceita parâmetros e retorna uma nova string com
+todos os caracteres em maiúsculas. A string original não é modificada, pois as strings em Python são imutáveis.
+
+Sintaxe:
+string.upper()
+Onde string é a string que você deseja converter para maiúsculas.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lower
+
+O método lower() em Python é usado para converter todos os caracteres de uma string para minúsculas. Assim como o método upper(), o lower() não aceita
+parâmetros e retorna uma nova string com todos os caracteres convertidos para minúsculas. A string original não é modificada.
+
+Sintaxe:
+string.lower()
+Onde string é a string que você deseja converter para minúsculas.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Capitalize
+
+O método capitalize() em Python é usado para converter o primeiro caractere de uma string para maiúscula e o restante da string para minúscula. Ele retorna uma
+nova string com essa transformação, mas não modifica a string original, pois as strings em Python são imutáveis.
+
+Sintaxe:
+string.capitalize()
+Onde string é a string que você deseja modificar.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Title
+
+O método title() em Python é usado para capitalizar a primeira letra de cada palavra em uma string, enquanto as outras letras de cada palavra são convertidas
+para minúsculas. Esse método é útil quando você deseja formatar uma string como um título, onde normalmente cada palavra começa com uma letra maiúscula.
+
+Sintaxe:
+string.title()
+Onde string é a string que você deseja modificar.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Strip
+
+O método strip() em Python é utilizado para remover os espaços em branco (ou outros caracteres especificados) do início e do final de uma string.
+Ele não altera os espaços dentro da string, apenas no início e no final.
+
+Sintaxe:
+string.strip([chars])
+string: A string da qual você deseja remover os espaços.
+chars (opcional): Um conjunto de caracteres que você deseja remover. Se não for fornecido, o método irá remover somente os espaços em branco (ou seja, espaços,
+tabulações e quebras de linha) do começo e do fim da string.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Rstrip
+
+O método rstrip() em Python é semelhante ao strip(), mas ele remove espaços em branco (ou outros caracteres especificados) apenas do final (direita) da string,
+não do início.
+
+Sintaxe:
+string.rstrip([chars])
+string: A string da qual você deseja remover os espaços ou caracteres.
+chars (opcional): Um conjunto de caracteres que você deseja remover. Se não for fornecido, o método irá remover somente os espaços em branco (como espaços,
+tabulações e quebras de linha) do final da string.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lstrip
+
+O método lstrip() em Python é utilizado para remover espaços em branco (ou outros caracteres especificados) apenas do início (esquerda) da string,
+e não do final.
+
+Sintaxe:
+string.lstrip([chars])
+string: A string da qual você deseja remover os espaços ou caracteres.
+chars (opcional): Um conjunto de caracteres que você deseja remover. Se não for fornecido, o método irá remover somente os espaços em branco (como espaços,
+tabulações e quebras de linha) do início da string.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Split
+
+O método split() em Python é utilizado para dividir uma string em uma lista de substrings, com base em um delimitador especificado. Por padrão, o método divide
+a string com base em espaços em branco (como espaços, tabulações ou quebras de linha), mas você pode especificar outro delimitador se necessário.
+
+Sintaxe:
+string.split([separator[, maxsplit]])
+separator (opcional): O delimitador onde a string será dividida. Se não for especificado, o padrão será qualquer sequência de espaços em branco.
+maxsplit (opcional): O número máximo de divisões que você deseja realizar. Se não for especificado, a string será dividida em todas as ocorrências do separador.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Join
+
+O método join() em Python é usado para concatenar uma lista de strings (ou outro tipo iterável) em uma única string, inserindo um delimitador
+entre os elementos. O método é chamado sobre o delimitador que você deseja usar para juntar as strings.
+
+Sintaxe:
+separator.join(iterable)
+separator: O delimitador que será inserido entre os elementos da lista (pode ser uma string qualquer, como um espaço, uma vírgula, etc.).
+iterable: O iterável (geralmente uma lista, tupla ou conjunto) cujos elementos serão concatenados.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
