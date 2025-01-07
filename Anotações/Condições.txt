@@ -1,0 +1,16 @@
+Condições
+
+Em Python, as condições são usadas para executar diferentes blocos de código dependendo de uma expressão booleana (verdadeira ou falsa).
+O controle de fluxo é feito principalmente com as palavras-chave:
+
+if: Executa um bloco de código se a condição for verdadeira.
+elif: Verifica outra condição caso a anterior tenha sido falsa.
+else: Executa um bloco de código quando todas as condições anteriores forem falsas.
+
+Esses comandos permitem a criação de decisões dentro do programa. A expressão dentro de um if ou elif é avaliada como True ou False.
+Caso a condição seja verdadeira, o código dentro do bloco correspondente é executado.
+Além disso, Python possui operadores relacionais (como ==, !=, >, <, >=, <=) e lógicos (como and, or, not) que permitem criar condições mais complexas.
+Condições Simples: São condições que envolvem apenas uma expressão booleana, que é avaliada como verdadeira ou falsa. Com base nisso, um único bloco
+de código é executado se a condição for verdadeira, ou nada acontece caso seja falsa.
+Condições Compostas: São condições que envolvem mais de uma expressão booleana, geralmente utilizando operadores lógicos como and, or, not.
+Isso permite combinar múltiplas condições em uma única verificação. Dependendo do resultado da combinação, um bloco de código será executado.
