@@ -1,3 +1,5 @@
+Cores no terminal
+
 No terminal, ao trabalhar com Python, é possível usar códigos ANSI para modificar as cores do texto e do fundo.
 Esses códigos permitem a personalização da aparência do terminal, como alterar a cor de fontes, fundos e até aplicar
 efeitos como negrito ou sublinhado.
