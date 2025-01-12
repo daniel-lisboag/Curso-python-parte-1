@@ -1,3 +1,5 @@
+Tipos primitivos
+
 Em Python, os tipos primitivos são os tipos de dados básicos utilizados para armazenar valores simples. Os mais comuns são:
 1. int (Inteiro): Representa números inteiros, positivos ou negativos, sem parte decimal.
    Exemplo: 5, -10, 123
